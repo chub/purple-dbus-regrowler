@@ -1,0 +1,28 @@
+
+purple-dbus-regrowler
+=====================
+
+This is a python project that growls messages from pidgin by looking into dbus.
+
+Required modules
+================
+
+dbus (debian/ubuntu: python-dbus)
+netgrowl (http://the.taoofmac.com/space/Projects/netgrowl)
+
+To install
+==========
+
+0. Check out the code
+1. Install python-dbus
+2. Copy netgrowl.py into the same directory (or into your PYTHONPATH)
+3. execute `python purple-dbus-regrowler.py`
+
+purple-dbus-regrowler.py still runs in the foreground, so it's probably a good thing to put it in a screen.
+
+Useful links
+============
+- http://www.wiredfool.com/2009/02/01/remote-growl-notifications/
+- http://the.taoofmac.com/space/Projects/netgrowl
+- http://dbus.freedesktop.org/doc/dbus-python/doc/tutorial.html
+- http://developer.pidgin.im/wiki/DbusHowto
